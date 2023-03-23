@@ -1,8 +1,12 @@
+import React from "react";
+import { useRoutes } from "react-router-dom";
+import routes from "./routes";
 
 
 function App() {
+  const elements = useRoutes(routes)
   return (
-   <label>ssd</label>
+    {elements}
   );
 }
 
