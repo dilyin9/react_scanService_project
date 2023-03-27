@@ -2,6 +2,13 @@
 
 .app-header {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   height: $header-height;
   background: #fff;
+}
+@font-face {
+  font-family: "Light";
+  src: local("Ferry"),url("../font/Ferry-Black.ttf") format("truetype");
 }
