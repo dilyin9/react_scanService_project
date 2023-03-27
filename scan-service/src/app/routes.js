@@ -1,5 +1,11 @@
 import React from "react";
+import Layout from "./Components/Layout/Layout";
+const routes = [
+  {
+    path: "/",
+    element: <Layout/>,
+  }
 
-const routes = [];
+];
 
 export default routes;

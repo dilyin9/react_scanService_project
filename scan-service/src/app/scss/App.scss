@@ -1,0 +1,7 @@
+@import "./variables";
+
+.app-header {
+  display: flex;
+  height: $header-height;
+  background: #fff;
+}
