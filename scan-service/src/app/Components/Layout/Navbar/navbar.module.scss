@@ -1,3 +1,10 @@
-.label-image {
-  padding-left: 1rem;
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
 }
